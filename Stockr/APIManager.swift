@@ -34,6 +34,8 @@ struct APIManager {
 //                        let dataString = String(data: safeData, encoding: .utf8)
 //                        print(dataString!)
                         
+                        
+                        
                         let companyData = try? JSONDecoder().decode(CompanyData.self, from: safeData)
                         
                     }
